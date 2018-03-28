@@ -1,0 +1,30 @@
+E:\C Essential Training\Functional Programming\Functional Programming-C-Essential-Training.c: In function 'main':
+E:\C Essential Training\Functional Programming\Functional Programming-C-Essential-Training.c:22:5: warning: implicit declaration of function 'initializeAccount' [-Wimplicit-function-declaration]
+     initializeAccount();
+     ^~~~~~~~~~~~~~~~~
+E:\C Essential Training\Functional Programming\Functional Programming-C-Essential-Training.c:23:5: warning: implicit declaration of function 'getBalance' [-Wimplicit-function-declaration]
+     getBalance();
+     ^~~~~~~~~~
+E:\C Essential Training\Functional Programming\Functional Programming-C-Essential-Training.c:25:5: warning: implicit declaration of function 'askCustomer' [-Wimplicit-function-declaration]
+     askCustomer();
+     ^~~~~~~~~~~
+E:\C Essential Training\Functional Programming\Functional Programming-C-Essential-Training.c:26:5: warning: implicit declaration of function 'updateAccount' [-Wimplicit-function-declaration]
+     updateAccount(amount);
+     ^~~~~~~~~~~~~
+E:\C Essential Training\Functional Programming\Functional Programming-C-Essential-Training.c:26:19: error: 'amount' undeclared (first use in this function)
+     updateAccount(amount);
+                   ^~~~~~
+E:\C Essential Training\Functional Programming\Functional Programming-C-Essential-Training.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+E:\C Essential Training\Functional Programming\Functional Programming-C-Essential-Training.c:31:5: warning: implicit declaration of function 'addGift' [-Wimplicit-function-declaration]
+     addGift(5.0);
+     ^~~~~~~
+E:\C Essential Training\Functional Programming\Functional Programming-C-Essential-Training.c:38:5: warning: implicit declaration of function 'thankYou' [-Wimplicit-function-declaration]
+     thankYou();
+     ^~~~~~~~
+E:\C Essential Training\Functional Programming\Functional Programming-C-Essential-Training.c: At top level:
+E:\C Essential Training\Functional Programming\Functional Programming-C-Essential-Training.c:79:6: warning: conflicting types for 'initializeAccount'
+ void initializeAccount(void){
+      ^~~~~~~~~~~~~~~~~
+E:\C Essential Training\Functional Programming\Functional Programming-C-Essential-Training.c:22:5: note: previous implicit declaration of 'initializeAccount' was here
+     initializeAccount();
+     ^~~~~~~~~~~~~~~~~
